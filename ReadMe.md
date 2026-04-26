@@ -37,21 +37,19 @@
          
    2. Build Large Language Model (LLM)
       1. Preprocessing
-         1. Using Custom Encoding   [==>]()
-         2. Byte-Pair Encoding Using   [==>]()
+         1. Using Custom Encoding   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/1_Preprocessing/1_Space_Based_Encoding.ipynb)
+         2. Byte-Pair Encoding Using   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/1_Preprocessing/2_Byte_Pair_Encoding.ipynb)
       2. Attention Mechanism
-         1. Luong Attention
-            1. Attention Wight Calculation   [==>]()
-            2. Luong Attention Implementation   [==>]()
-         2. Self Attention
-            1. Self Attention Calculation   [==>]()
-            2. Self Attention Implementation   [==>]()
-         3. Masked Attention
-            1. Masked Attention Implementation   [==>]()
-            2. Masked Attention Implementation for batchs   [==>]()
-         4. Multi-head Masked Attention
-            5. Wrapper Class of Multi-head Masked Attention   [==>]()
-            5. Optimized Multi-head Masked Attention   [==>]()
+         1. Self Attention
+            1. Simplified Self Attention
+               1. Self Attention Calculation   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/1_Simplified_Self_attention/1_Self_Attention_Non_parameterized_Weight_Calculation.ipynb)
+               2. Self Attention Implementation   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/1_Simplified_Self_attention/2_Self_Attention_Trainable_parameterized_Weight_Calculation.ipynb)
+            2. Masked Attention
+               1. Masked Attention Implementation   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/2_Masked_Self_Attention/1_Masked_Self_Attention.ipynb)
+               2. Masked Attention Implementation for batchs   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/2_Masked_Self_Attention/2_Class_Build_Masked_Self_attention.ipynb)
+            3. Multi-head Masked Attention
+               1. Wrapper Class of Multi-head Masked Attention   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/3_Multi_Head_Attention/1_Wrapper_Class_Multi_Head_Attention.ipynb)
+               2. Optimized Multi-head Masked Attention   [==>](6_Natural_Language_Processing/2_Build_Large_Language_Model/2_Attention_Mechanism/1_Self_Attention/3_Multi_Head_Attention/2_Multi_Head_Attention.ipynb)
       3. LLM Architecture
          1. GPT Model Architecture   [==>]()
          2. Layer Normalization   [==>]()
